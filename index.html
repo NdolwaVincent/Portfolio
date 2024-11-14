@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Realtime Database Example</title>
+  <link rel="stylesheet" href="f.css">
+</head>
+<body>
+  <script type="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+  <script type="https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js"></script>
+  <div class="container">
+    <h1>Add Data to Firebase Realtime Database</h1>
+    <form id="dataForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter name" required>
+      <br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" placeholder="Enter age" required>
+      <br>
+      
+      <button type="submit">Add Data</button>
+    </form>
+    <div id="statusMessage"></div>
+  </div>
+  <script type="fb.js"></script>
+</body>
+</html>
